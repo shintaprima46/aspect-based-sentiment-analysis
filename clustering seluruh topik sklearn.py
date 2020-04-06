@@ -26,7 +26,7 @@ from sklearn.decomposition import LatentDirichletAllocation as LDA
 # In[4]:
 
 
-# VSM term Frekuensi : "tf-idf"
+# VSM term Frekuensi : "tf"
 df = pd.read_csv('tokped_bersih3 fix - Copy.csv')
 data = df['Cleaned_review']
 
